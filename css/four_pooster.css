@@ -1,0 +1,84 @@
+/* four pooter */
+@media(min-width:1200px){
+div.f_main_m{
+    display: none;
+}
+div.f_main_m2{
+    display: none;
+}
+
+    div.f_main{
+        width: 85%;
+        height: auto;
+        margin: 20px auto;
+        direction: rtl;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.f_main >img{
+        
+        width:25%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 15px;
+        padding-right: 5px;
+    
+    }
+}
+    
+
+
+
+
+
+@media(max-width:1200px){
+
+    div.f_main{
+        display: none;
+    }
+    
+
+    div.f_main_m{
+        width: 85%;
+        height: auto;
+        margin: 20px auto;
+        direction: rtl;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+    div.f_main_m >img{
+        
+        width:48%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 15px;
+        /* margin-left: 10px; */
+        
+    }
+
+
+    div.f_main_m2{
+        width: 85%;
+        height: auto;
+        margin: 20px auto;
+        direction: rtl;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    div.f_main_m2 > img{
+
+        align-items: center;
+        width:48%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 15px;
+        /* margin-left: 10px; */
+    
+    }
+
+
+
+}

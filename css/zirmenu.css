@@ -1,0 +1,1346 @@
+/*start seconed part */
+@media(max-width:1020px){
+    div.menu{
+        display: none;
+    }
+
+}
+
+@media(min-width:1020px) and (max-width:1460px){
+    div.menu{
+        scroll-behavior:smooth;
+        display: flex;
+        height: 48px;
+        font-family: karim;
+        direction: rtl;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 9px;
+        color: rgba(0, 0, 0, 0.55);
+        font-weight:900;
+        border-bottom:1px solid #ccc;
+        margin-top: -40px;
+        
+    }
+    
+    div.menu>div.div1{
+        width: 70%;
+        display: flex; 
+    }
+    
+    div.menu>div.div1> nav >ul{
+        display: flex;
+        direction: rtl;
+        list-style: none;
+        justify-content:space-around;
+        align-items: stretch;
+        height: inherit;
+        transition: all 300px linear;  
+        
+    }
+    
+    div.menu>div.div1 > nav >ul > li {
+        display: flex;
+        justify-content:space-around;
+        margin-right: 25px;
+        align-items:center;
+        padding: 14px 0px;
+        
+
+    }
+    
+    div.menu>div.div1 > nav >ul > li.menu2{
+        align-items:center;
+        border-left: 1px solid rgba(0, 0, 0, 0.4);
+        padding-left: 15px;
+        color: black;
+    }
+    
+    div.menu>div.div1 > nav >ul > li.menu3{
+        align-items:center;
+        border-right: 1px solid rgba(0, 0, 0, 0.699);
+        padding-right: 15px;
+        
+    }
+    
+    div.menu>div.div1 > nav >ul > li.menu2>i{
+        padding: 3px; 
+    }
+    
+    div.menu>div.div1 > nav >ul > li>i{
+        padding: 3px; 
+    }
+    
+    div.menu>div.div1 > nav >ul>:hover{
+        border-bottom: 4px solid red;
+    
+    }
+    
+    div.menu>div.div2>a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.557);
+        padding-left: 29px;
+    }
+    
+    div.menu>div.div2>a>i{
+        padding-left: 5px;
+    }
+}
+
+@media(min-width:1460px){
+div.menu{
+    display: flex;
+    height: 45px;
+    font-family: karim;
+    direction: rtl;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+    border-bottom:1px solid #ccc;
+    margin-top: -40px;
+}
+
+div.menu>div.div1{
+    width: 70%;
+    display: flex; 
+}
+
+div.menu>div.div1> nav >ul{
+    display: flex;
+    direction: rtl;
+    list-style: none;
+    justify-content:space-around;
+    align-items: stretch;
+    height: inherit;
+    transition: all 300px linear;  
+}
+
+div.menu>div.div1 > nav >ul > li {
+    display: flex;
+    justify-content:space-around;
+    margin-right: 25px;
+    align-items:center;
+    padding: 9px 0px;
+}
+
+div.menu>div.div1 > nav >ul > li.menu2{
+    align-items:center;
+    border-left: 1px solid rgba(0, 0, 0, 0.4);
+    padding-left: 15px;
+    color: black;
+}
+
+div.menu>div.div1 > nav >ul > li.menu3{
+    align-items:center;
+    border-right: 1px solid rgba(0, 0, 0, 0.699);
+    padding-right: 15px;
+    
+}
+
+div.menu>div.div1 > nav >ul > li.menu2>i{
+    padding: 3px; 
+}
+
+div.menu>div.div1 > nav >ul > li>i{
+    padding: 3px; 
+}
+
+div.menu>div.div1 > nav >ul>li:hover{
+    border-bottom: 5px solid rgb(255, 64, 0);
+
+}
+
+div.menu>div.div2>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.557);
+    padding-left: 29px;
+}
+
+div.menu>div.div2>a>i{
+    padding-left: 5px;
+}
+}
+
+/*end searchbar */
+
+
+
+
+
+
+div.menu>div.div1> nav >ul> li.menu2> div.div_zirmenu2{
+    width: 95%;
+    height:0px ;
+    background-color: #F1F2F4;
+    position: absolute;
+    top: calc(160px);
+    right:calc(40px) ;
+    z-index:998 ;
+    display: none;
+    overflow-y: scroll;
+    
+
+}
+div.menu>div.div1> nav >ul> li.menu2:hover> div.div_zirmenu2 , div.tab1>ul{
+    height: 70vh;
+    display: inline-block ;
+    
+}
+
+div.menu>div.div1> nav >ul> li.menu2> div.div_zirmenu2> div.tab1{
+   width: 20%;
+   height: inherit;
+   display: inline-block;
+   padding-top: 15px;
+}
+
+div.menu>div.div1> nav >ul> li.menu2> div.div_zirmenu2>div.tab1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     }
+div.menu>div.div1> nav >ul> li.menu2> div.div_zirmenu2>div.tab1>ul>li{
+    padding: 15px;
+}
+
+
+div.menu>div.div1> nav >ul> li.menu2> div.div_zirmenu2> div.tab1>ul>li:hover {
+    background-color: rgba(163, 155, 155, 0.703);
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+/* paaaaart1 zir menu mobile */
+
+
+div.menu div.mob>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.mob>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.mob>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.mob>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.mob>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.mob>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.mob>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.mob>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.mob>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.mob>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.mob>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.mob>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.mob>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.mob>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.mob>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.mob>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.mob>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.mob>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.mob>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.moblie:hover > div.m {
+display: block;
+}
+
+div.menu li.moblie:hover > div.mob {
+    display: block;
+    }
+
+div.menu div.m{
+display: none;
+left: 0;
+top:0;
+
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.mob{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.mob{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.mob>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+
+/* paaaaart1 zir menu mobile */
+
+
+/* paaaaart2 zir menu kala digital */
+
+
+
+
+div.menu div.kala>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.kala>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.kala>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.kala>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.kala>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.kala>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.kala>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.kala>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.kala>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.kala>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.kala>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.kala>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.kala>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.kala>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.kala>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.kala>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.kala>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.kala>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.kala>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.digital:hover > div.k {
+display: block;
+}
+
+div.menu li.digital:hover > div.kala {
+    display: block;
+    }
+
+div.menu div.k{
+display: none;
+left: 0;
+top:0;
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.kala{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    top:calc(0%);
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.kala{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.kala>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+/* paaaaaaart 3 */
+
+
+
+
+div.menu div.khone>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.khone>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.khone>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.khone>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.khone>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.khone>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.khone>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.khone>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.khone>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.khone>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.khone>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.khone>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.khone>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.khone>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.khone>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.khone>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.khone>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.khone>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.khone>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.ashpazkhane:hover > div.kh {
+display: block;
+}
+
+div.menu li.ashpazkhane:hover > div.khone {
+    display: block;
+    }
+
+div.menu div.kh{
+display: none;
+left: 0;
+top:0;
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.khone{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    top:calc(0%);
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.khone{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.khone>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+
+
+
+
+
+/* ********   part 4 */
+
+
+
+
+
+
+
+
+
+div.menu div.poshak>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.poshak>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.poshak>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.poshak>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.poshak>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.poshak>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.poshak>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.poshak>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.poshak>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.poshak>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.poshak>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.poshak>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.poshak>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.poshak>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.poshak>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.poshak>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.poshak>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.poshak>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.poshak>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.mode:hover > div.m {
+display: block;
+}
+
+div.menu li.mode:hover > div.poshak {
+    display: block;
+    }
+
+div.menu div.m{
+display: none;
+left: 0;
+top:0;
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.poshak{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    top:calc(0%);
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.poshak{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.poshak>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+
+
+/* ******************part5 */
+
+
+
+
+
+
+
+
+div.menu div.sup>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.sup>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.sup>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.sup>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.sup>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.sup>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.sup>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.sup>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.sup>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.sup>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.sup>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.sup>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.sup>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.sup>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.sup>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.sup>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.sup>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.sup>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.sup>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.super:hover > div.s {
+display: block;
+}
+
+div.menu li.super:hover > div.sup {
+    display: block;
+    }
+
+div.menu div.s{
+display: none;
+left: 0;
+top:0;
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.sup{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    top:calc(0%);
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.sup{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.sup>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+/*************************** part 6 */
+
+
+div.menu div.bo>div.part1>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+div.menu div.bo>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.bo>div.part1>ul>li:hover{
+    color: red;
+    
+}
+div.menu div.bo>div.part1>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.bo>div.part1>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+div.menu div.bo>div.part1{
+    width: 25%;
+    height: 100%;
+    display: inline;
+    
+}
+div.menu div.bo>div.part1>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    
+    
+}
+div.menu div.bo>div.part2>ul>li:hover{
+    color: red;
+    
+
+}
+div.menu div.bo>div.part2>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+    
+}
+
+div.menu div.bo>div.part2>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.bo>div.part2>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.bo>div.part2>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px;
+  
+}
+div.menu div.bo>div.part2{
+    width:25%;
+    height: inherit;
+    display: inline;
+    
+}
+
+
+div.menu div.bo>div.part3>ul>li:hover {
+    color: red;
+    
+
+}
+div.menu div.bo>div.part3{
+    width: 25%;
+    height: inherit;
+    display: inline;
+    
+}
+div.menu  div.bo>div.part3>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+div.menu div.bo>div.part3>ul>li{
+    display: inline-block;  
+}
+
+div.menu div.part3>ul>li{
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.516);
+    cursor: pointer;
+    margin-right: 5px; 
+}
+div.menu div.bo>div.part3>ul>p:hover{
+    color: red;
+    cursor: pointer;
+}
+div.menu div.bo>div.part3>ul>p{
+    border-right: 2px solid red;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    color: black
+
+}
+
+div.menu li.book:hover > div.b {
+display: block;
+}
+
+div.menu li.book:hover > div.bo {
+    display: block;
+    }
+
+div.menu div.b{
+display: none;
+left: 0;
+top:0;
+position: absolute;
+width: 80%;
+height: 500px;
+
+}
+
+div.menu div.bo{
+    
+    width:100%;
+    height:500px;
+    background-color: rgba(255, 255, 255, 0.167);
+    position:absolute;
+    top:calc(0%);
+    right: calc(1%);
+    display: flex;
+    overflow-y: scroll; 
+    white-space:normal ;
+    
+}
+div.menu div.bo{
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+div.menu div.bo>h3{
+    padding-right: 5px;
+    margin:25px;
+    color: black;
+    align-items: start;
+    font-size: small;
+    
+}
+
+
+
+
+
+
+

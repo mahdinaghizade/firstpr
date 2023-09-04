@@ -1,0 +1,25 @@
+@import url(./setting.css);
+@import url(./zirmenu.css);
+@import url(./amazing.css);
+@import url(./super_market.css);
+@import url(./four_pooster.css);
+
+
+
+@font-face {
+    font-family: karim;
+    src: url(../YekanBakh-Regular.woff);
+}
+@font-face{
+    font-family: karim2;
+    src: url(../YekanBakh-ExtraBold.woff);
+    
+}
+@font-face {
+    font-family:adad ;
+    src: url(../PeydaWebFaNum-Light.woff2);
+}
+@font-face{
+    font-family: adad2;
+    src: url(../PeydaWebFaNum-ExtraLight.woff2);
+}
